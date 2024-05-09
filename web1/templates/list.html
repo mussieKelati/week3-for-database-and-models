@@ -6,7 +6,8 @@
 </head>
 <body>
     
- {{students}}
-
+ {%for person in students%}
+  {%person%}
+  {%{% endfor %}%}
 </body>
 </html>
